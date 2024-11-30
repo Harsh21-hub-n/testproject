@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+<listeners>
+<listener class-name="selenium_by_Y.Listeners"/>
+
+</listeners>
+
+
+ <test thread-count="5" name="personalLoan">
+    <classes>
+      <class name="selenium_by_Y.TestNG_1"/>
+      <class name="selenium_by_Y.TestNG_2"/>
+    </classes>
+  </test> <!-- Test_2 -->
+  
+  <test name="Car_Loan">
+  <classes>
+  <class name="selenium_by_Y.TestNG_3">
+  <methods>
+  <exclude name="Carloan_otp"/>
+  
+  </methods>
+  
+  </class>
+   </classes>
+  
+  
+  </test>
+</suite> <!-- Suite -->

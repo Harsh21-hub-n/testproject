@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Loan Department]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="selenium_by_Y.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Car_Loan(failed)">
+    <classes>
+      <class name="selenium_by_Y.TestNG_3">
+        <methods>
+          <include name="loans"/>
+        </methods>
+      </class> <!-- selenium_by_Y.TestNG_3 -->
+    </classes>
+  </test> <!-- Car_Loan(failed) -->
+</suite> <!-- Failed suite [Loan Department] -->

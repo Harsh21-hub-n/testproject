@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-10T16:52:31 IST" name="Loan Department" finished-at="2024-11-10T16:52:31 IST" duration-ms="204">
+    <groups>
+    </groups>
+    <test started-at="2024-11-10T16:52:31 IST" name="personalLoan" finished-at="2024-11-10T16:52:31 IST" duration-ms="81">
+      <class name="selenium_by_Y.TestNG_1">
+        <test-method signature="M1()[pri:0, instance:selenium_by_Y.TestNG_1@61001b64]" started-at="2024-11-10T16:52:31 IST" name="M1" finished-at="2024-11-10T16:52:31 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M1 -->
+        <test-method signature="MILTON()[pri:0, instance:selenium_by_Y.TestNG_1@61001b64]" started-at="2024-11-10T16:52:31 IST" name="MILTON" finished-at="2024-11-10T16:52:31 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MILTON -->
+      </class> <!-- selenium_by_Y.TestNG_1 -->
+      <class name="selenium_by_Y.TestNG_2">
+        <test-method is-config="true" signature="pot()[pri:0, instance:selenium_by_Y.TestNG_2@e350b40]" started-at="2024-11-10T16:52:31 IST" name="pot" finished-at="2024-11-10T16:52:31 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pot -->
+        <test-method signature="kyari(java.lang.String,java.lang.String)[pri:0, instance:selenium_by_Y.TestNG_2@e350b40]" started-at="2024-11-10T16:52:31 IST" name="kyari" data-provider="getdata" finished-at="2024-11-10T16:52:31 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rose_water]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[for rose]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kyari -->
+        <test-method signature="kyari(java.lang.String,java.lang.String)[pri:0, instance:selenium_by_Y.TestNG_2@e350b40]" started-at="2024-11-10T16:52:31 IST" name="kyari" data-provider="getdata" finished-at="2024-11-10T16:52:31 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jade_water]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[for jade]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- kyari -->
+        <test-method is-config="true" signature="water()[pri:0, instance:selenium_by_Y.TestNG_2@e350b40]" started-at="2024-11-10T16:52:31 IST" name="water" finished-at="2024-11-10T16:52:31 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- water -->
+      </class> <!-- selenium_by_Y.TestNG_2 -->
+    </test> <!-- personalLoan -->
+    <test started-at="2024-11-10T16:52:31 IST" name="Car_Loan" finished-at="2024-11-10T16:52:31 IST" duration-ms="20">
+      <class name="selenium_by_Y.TestNG_3">
+        <test-method signature="carloandone()[pri:0, instance:selenium_by_Y.TestNG_3@75d3a5e0]" started-at="2024-11-10T16:52:31 IST" name="carloandone" finished-at="2024-11-10T16:52:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carloandone -->
+        <test-method signature="loans(java.lang.String,java.lang.String)[pri:0, instance:selenium_by_Y.TestNG_3@75d3a5e0]" started-at="2024-11-10T16:52:31 IST" name="loans" finished-at="2024-11-10T16:52:31 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'username' is required by @Test on method loans but has not been marked @Optional or defined
+in D:\Test_j\Harsh_TJ\first\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'username' is required by @Test on method loans but has not been marked @Optional or defined
+in D:\Test_j\Harsh_TJ\first\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:884)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loans -->
+        <test-method signature="loginCarLoan()[pri:0, instance:selenium_by_Y.TestNG_3@75d3a5e0]" started-at="2024-11-10T16:52:31 IST" name="loginCarLoan" finished-at="2024-11-10T16:52:31 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCarLoan -->
+      </class> <!-- selenium_by_Y.TestNG_3 -->
+    </test> <!-- Car_Loan -->
+  </suite> <!-- Loan Department -->
+</testng-results>
